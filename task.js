@@ -20,9 +20,9 @@ function reverse(str) {
 // A function which prints the stair picture of size n
 function printStairs(n) {
   const str = "";
-  for (const i = 0; i < n; i++) {
+  for (let i = 0; i < n; i++) {
   console.log(str)
-  str +- "";
+  str += "#";
   }
  }
  printStairs(5);
