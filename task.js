@@ -14,6 +14,7 @@ function reverse(str) {
   nStr += str[i];
   }
   return nStr;
+  }
 }
 
 ////////////// Task 3 ////////////
@@ -57,7 +58,7 @@ min(3, 8, 4) // 3
 function cursorCheck(str) { 
 str = str.toLowerCase();
 return (str.search("iroonman") != (-1) 
-str. search("cursor"} !=(-1) 
-str search("ostap") != (-1)) true : false;
+str.search("cursor"} !=(-1) 
+str.search("ostap") != (-1)) true : false;
 cursorCheck('Hello I am OstaP') // true
 cursorCheck('Superman is here') // false
