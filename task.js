@@ -1,16 +1,16 @@
 ////////////// Task 1 ////////////
 // Build a function that does currency converter from USD to UAH (1 USD = 8 UAH). //
-const exchange = 8;
+let exchange = 8;
 function convert(amount) {
   return amount*exchange;
  }
 
 ////////////// Task 2 ////////////
 // A function which returns reversed string. 
-function reverse(str) {
+let reverse(str) {
   if (typeof(str) == "string") {
-  const nStr = "";
-  for (const i = str.length - 1; i >=0; i--) {
+  let nStr = "";
+  for (let i = str.length - 1; i >=0; i--) {
   nStr += str[i];
   }
   return nStr;
@@ -20,7 +20,7 @@ function reverse(str) {
 ////////////// Task 3 ////////////
 // A function which prints the stair picture of size n
 function printStairs(n) {
-  const str = "";
+  let str = "";
   for (let i = 0; i < n; i++) {
   console.log(str)
   str += "#";
