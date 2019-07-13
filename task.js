@@ -7,7 +7,7 @@ function convert(amount) {
 
 ////////////// Task 2 ////////////
 // A function which returns reversed string. 
-let reverse(str) {
+function reverse(str) {
   if (typeof(str) == "string") {
   let nStr = "";
   for (let i = str.length - 1; i >=0; i--) {
@@ -50,15 +50,12 @@ function min (a, b ,c) {
       else return c
       }
       }
-  console.log    min(10, 5, 11) // 5
+console.log(min(10, 5, 11)) // 5
 min(3, 8, 4) // 3
  ////////////// Task 8 ////////////  
  //A function which returns true if string contains ironman or cursor or ostap otherwise returns false. The function must be case-insensitive.
  
-function cursorCheck(str) { 
+function cursorCheck(str) {
 str = str.toLowerCase();
-return (str.search("iroonman") != (-1) 
-str.search("cursor"} !=(-1) 
-str.search("ostap") != (-1)) true : false;
-cursorCheck('Hello I am OstaP') // true
-cursorCheck('Superman is here') // false
+return (str.search("iroonman") != (-1)) || (str.search("cursor") != (-1)) || (str.search("ostap") != (-1));
+}
